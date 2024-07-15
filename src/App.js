@@ -1,24 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.scss';
+import {BrowserRouter, Routes, Route} from "react-router-dom";
+import HomePage from './components/homePage';
+import SkillsPage from './components/skillsPage';
+import projectsPage from './components/projectsPage';
+import { ThemeProvider } from './context/darkModeContext';
+import { useEffect } from 'react';
 
 function App() {
+
+        
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" Component={HomePage}></Route>
+          <Route path="/skills" Component={SkillsPage}></Route>
+          <Route path="/projects" Component={projectsPage}></Route>
+          <Route path="/" Component={HomePage}></Route>
+        </Routes>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 
