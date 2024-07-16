@@ -157,15 +157,6 @@ const Header = () => {
                         <input type="submit" disabled={state.submitting} value="Send Mail." />
                     </div>
                 </form>
-
-                // <form onSubmit={handleSubmit}>
-                //     <label htmlFor="email"> Email Address </label>
-                //     <input id="email" type="email" name="email"/>
-                //     <ValidationError prefix="Email" field="email" errors={state.errors}/>
-                //     <textarea id="message" name="message"/>
-                //     <ValidationError prefix="Message" field="message" errors={state.errors}/>
-                //     <button type="submit" disabled={state.submitting}> Submit </button>
-                // </form>
             )}
             <div className={(menuDisplay) ? "open" : "close"} id="mobile-nav-bar">
                 <img src={menuClose} alt="menuClose" id="menuClose" onClick={closeMenu}/>
