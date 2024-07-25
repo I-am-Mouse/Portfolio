@@ -167,13 +167,13 @@ const Header = () => {
                         <li><a href="/projects">Projects</a></li>
                         <li>Contact
                             <article>                                    
-                                <a href="https://www.instagram.com/yomi_lateju/" target="_blank"><img src={instagramLogo} alt="instagramLogo" />Instagram</a>
-                                <a href="https://twitter.com/OriyomiOlateju" target="_blank"><img src={twitterLogo} alt="twitterLogo" />X</a>
-                                <a href="https://github.com/I-am-Mouse" target="_blank"><img src={githubLogo} alt="githubLogo" />GitHub</a>
                                 <a href="https://www.linkedin.com/in/olateju-oriyomi-b098352b3/" target="_blank"><img src={linkedinLogo} alt="linkedinLogo" />LinkedIn</a>
+                                <a href="https://github.com/I-am-Mouse" target="_blank"><img src={githubLogo} alt="githubLogo" />GitHub</a>
+                                <a href="mailto:info@olatejuoriyomi9@gmail.com?subject=Hello!" target="_blank"><img src={gmailLogo} alt="gmailLogo" />Gmail</a>
                                 <a href="https://discord.com/channels/@me" target="_blank"><img src={discordLogo} alt="discordLogo" />Discord</a>
                                 <a href="https://wa.me/08064672139" target="_blank"><img src={whatsappLogo} alt="whatsappLogo" />Whatsapp</a>
-                                <a href="mailto:info@olatejuoriyomi9@gmail.com?subject=Hello!" target="_blank"><img src={gmailLogo} alt="gmailLogo" />Gmail</a>
+                                <a href="https://twitter.com/OriyomiOlateju" target="_blank"><img src={twitterLogo} alt="twitterLogo" />X</a>
+                                <a href="https://www.instagram.com/yomi_lateju/" target="_blank"><img src={instagramLogo} alt="instagramLogo" />Instagram</a>
                             </article>
                         </li>
                     </ul>
