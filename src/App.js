@@ -6,8 +6,6 @@ import SkillsPage from './components/skillsPage';
 import projectsPage from './components/projectsPage';
 import { ThemeProvider } from './context/darkModeContext';
 import React from 'react';
-// import { FacebookShareButton, FacebookIcon } from 'react-share';
-// import { useEffect } from 'react';
 
 function App() {
 
