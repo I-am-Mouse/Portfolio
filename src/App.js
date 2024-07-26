@@ -25,17 +25,10 @@ function App() {
         </BrowserRouter>
       </ThemeProvider>
       <div>
-        <FacebookShareButton quote="Let's work together and craft a web solution that drives growth for your business." url={'https://tejucodes.site'}>
-          <FacebookIcon>
-            <img src='https://example.com/custom-icon.png' />
-          </FacebookIcon>
-        </FacebookShareButton>
-      </div>
-      <div>
-        <meta property="og:image" content={`${process.env.PUBLIC_URL}shareLogo.png`} />
+        <meta property="og:image" content={`${process.env.PUBLIC_URL}/shareLogo.png`} />
         {/* or */}
         <FacebookShareButton quote="Let's work together and craft a web solution that drives growth for your business." url={'https://www.example.com'}>
-          <img src={`${process.env.PUBLIC_URL}shareLogo.png`} />
+          <img src={`${process.env.PUBLIC_URL}/shareLogo.png`} />
         </FacebookShareButton>
       </div>
     </>
