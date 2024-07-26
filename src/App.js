@@ -31,6 +31,13 @@ function App() {
           </FacebookIcon>
         </FacebookShareButton>
       </div>
+      <div>
+        <meta property="og:image" content={`${process.env.PUBLIC_URL}shareLogo.png`} />
+        {/* or */}
+        <FacebookShareButton quote="Let's work together and craft a web solution that drives growth for your business." url={'https://www.example.com'}>
+          <img src={`${process.env.PUBLIC_URL}shareLogo.png`} />
+        </FacebookShareButton>
+      </div>
     </>
   );
 }
