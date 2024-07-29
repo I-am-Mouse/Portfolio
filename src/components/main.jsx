@@ -26,9 +26,9 @@ const Main = () => {
                         <p>As a <strong>Front-end Developer</strong>, I specialize in crafting visually stunning and highly interactive user interfaces
                             for <strong>web applications</strong>. With a focus on <strong>Front-end Development</strong>, I am able to deliver user-friendly, responsive, 
                             and optimized <strong>UI/UX solutions</strong> that meet your business needs.</p>
-                            <a href="resume.jpg" download="Olateju_Oriyomi_Resume">
+                            {/* <a href="resume.jpg" download="Olateju_Oriyomi_Resume">
                                 Download Resume
-                            </a>
+                            </a> */}
                     </article>
                     <img src={Mouse} alt="mouse img" />
                 </div>
