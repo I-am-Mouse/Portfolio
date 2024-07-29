@@ -124,7 +124,7 @@ const Header = () => {
                 </article>
                 <article>
                     <p id="screen-mode"><img src={(isPressed) ? lightMode : darkMode} onClick={() => handlePressed()} alt="mode" /></p>
-                    <button onClick={handleHireMe}>Hire Me</button>
+                    <button onClick={handleHireMe}>Let's Talk</button>
                     <img id="menuopen" src={menuOpen} alt="menuopen" onClick={openMenu}/>
                 </article>
             </div>
